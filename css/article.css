@@ -1,0 +1,133 @@
+html{
+  background-color: rgb(80, 80, 80);
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  width: 200px;
+  position: absolute;
+  z-index: 1;
+  top: 7%;
+  left: 8px;
+  background: #333;
+  overflow-x: hidden;
+  padding: 8px 0;
+  height: 100%;
+  
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #2196F3;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #064579;
+}
+
+.main {
+  margin-left: 140px;
+  font-size: 28px;
+  padding: 0px 10px;
+}
+
+h1 {
+  color: white;
+  font-size: 50px;
+}
+
+h1.profile{
+  margin-left: 15%;
+}
+
+div.main{
+  color: white;
+  font-size: 25px;
+}
+
+a.disconnect{
+  color: red;
+}
+
+section{
+  color: white;
+  text-align: center;
+}
+
+a.link{
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+
+a.followbutton{
+    box-shadow:inset 0px 1px 0px 0px #333;
+    background-color:rgb(30, 30, 30);
+    border-radius:6px;
+    border:1px solid rgb(30, 30, 30);
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:0px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #333;
+    margin-left: 50%;
+}
+
+.message{
+  box-shadow:inset 0px 1px 0px 0px #333;
+    background-color:rgb(31, 31, 31);
+    border-radius:6px;
+    border:1px solid rgb(31, 31, 31);
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:0px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #333;
+}
+
+h1.titre {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+p.contenu {
+	text-align: center;
+	color: white;
+	font-family: "Arial",sans-serif;
+    font-size: 15px;
+}
+
+img.image {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+iframe {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a.like {
+	margin-left: 45%;
+}
+
+span.count {
+	color:white;
+}

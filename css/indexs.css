@@ -1,0 +1,71 @@
+html {
+  width: 450px;
+  padding: 1.5em;
+  font-family: "Lato", sans-serif;
+  margin:10%auto 10%auto;
+  background-color : rgb(31, 31, 31);
+}
+
+h1{
+  text-align: center;
+  margin-top:10px;
+  margin-bottom: 10px;
+  color:white;
+}
+
+form{
+  margin-top: auto;
+  text-align: center;
+  border: 1px solid rgb(71, 71, 71);
+  border-radius: 0.5em;
+  background-color: rgb(71, 71, 71);
+  margin-bottom:1em;
+}
+
+input {
+  display: inline-block;
+  border-radius: 0.5em;
+  border: 1px solid rgb(133, 133, 133);
+}
+
+div.button_back {
+  text-align: center;
+}
+
+
+div.error{
+  color : rgb(240, 16, 16);
+}
+
+div.success{
+  color : green;
+}
+div.entry{
+  padding : .5em;
+}
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #333;
+	background-color:rgb(31, 31, 31);
+	border-radius:6px;
+	border:1px solid rgb(31, 31, 31);
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #333;
+}
+.myButton:hover {
+	background-color:#111;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+a{
+  color : #fff;
+}

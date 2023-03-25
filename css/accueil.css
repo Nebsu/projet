@@ -1,0 +1,39 @@
+html{
+    background-color: rgb(80, 80, 80);
+    font-family: "Lato", sans-serif;
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+li{
+    text-align: center;
+    text-decoration: none;
+}
+
+ul.admin{
+    text-decoration: none;
+}
+
+a.button {
+    color: red;
+}
+
+table,td.post {
+    text-align: center;
+}
+
+a.titre {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-family: "Lucida console", serif;
+    font-size: 25px;
+}
+
+a.pseudo {
+    color: white;
+    text-decoration: none;
+}
